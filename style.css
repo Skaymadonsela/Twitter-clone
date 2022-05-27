@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto 251px  598px 350px auto;
+    background-color: #ffff;
+    padding: 10px;
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .twitter-logo {
+    width: 30px;
+    position: relative;
+    right: 66px;
+  }
+  .home-container {
+    display: flex;
+    width: 140px;
+    height: 50px;
+   /* border: 1px solid red; */
+    border-radius: 30px;
+    margin-bottom: 2px;
+    padding-left: 10px;
+  }
+
+  .home-container:hover {
+    background-color: lightgrey;
+  }
+
+  .explore-container {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    margin-bottom: 2px;
+    padding-left: 10px;
+    cursor: pointer;
+  }
+
+  .explore-container:hover {
+    background-color: lightgrey;
+  }
+
+
+  .notification-container {
+    display: flex;
+    width: 180px;
+    height: 50px;
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    margin-bottom: 2px;
+    padding-left: 10px;
+    cursor: pointer;
+  }
+
+  .notification-container:hover {
+    background-color: lightgray;
+  }
+
+.massage-container {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    margin-bottom: 2px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.massage-container:hover {
+  background-color: lightgray;
+}
+
+
+.bookmark-container {
+    display: flex;
+    width: 180px;
+    height: 50px;
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    margin-bottom: 2px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.bookmark-container:hover {
+  background-color: lightgray;
+}
+
+  .lists-container {
+    display: flex;
+    width: 130px;
+    height: 50px;
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    margin-bottom: 2px;
+    padding-left: 10px;
+  }
+
+  .lists-container:hover {
+    background-color: lightgray;
+  }
+
+
+  .profile-container {
+    display: flex;
+    width: 130px;
+    height: 50px;
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    margin-bottom: 2px;
+    padding-left: 10px;
+    cursor: pointer;
+  }
+
+  .profile-container:hover {
+    background-color: lightgray;
+  }
+
+
+  .more-container {
+    display: flex;
+    width: 130px;
+    height: 50px;
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    margin-bottom: 2px;
+    padding-left: 10px;
+    cursor: pointer;
+  }
+
+  .more-container:hover {
+    background-color: lightgray;
+  }
+
+
+
+  .side-icon {
+    width: 35px;
+    padding-left: 10px;
+  
+  }
+
+  .side-title {
+    font-size: 20px;
+    padding-top: 15px;
+    margin-left: 10px;
+    
+  }
+
+  .notification-icon {
+    width: 36px;
+    height: 36px;
+    padding-top: 7px;
+    padding-left: 10px;
+   
+  }
+
+  
+
+  .massage-icon {
+    width: 32px;
+    height: 36px;
+    padding-top: 16px;
+    padding-left: 10px;
+  }
+
+  .bookmark-icon {
+    width: 36px;
+    height: 36px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .list-icon {
+    width: 36px;
+    height: 36px;
+    padding-top: 15px;
+    padding-left: 5px;
+  }
+
+  .profile-icon {
+    width: 36px;
+    height: 36px;
+    padding-top: 7px;
+    padding-left: 5px; 
+  }
+
+  .btn-tweet {
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #2196F3;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+  }

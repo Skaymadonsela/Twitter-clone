@@ -383,6 +383,8 @@
     position: relative;
     top: -18px;
     border-radius: 30px;
+    font-size: 15px;
+
     background-color:  rgb(239, 235, 235);
     
   }
@@ -390,7 +392,7 @@
   .serch-icon {
     width: 20px;
     position: relative;
-    top: -55px;
+    top: -60px;
     right: 130px;
   }
 

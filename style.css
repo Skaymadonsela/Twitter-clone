@@ -343,14 +343,15 @@
   }
 
   .tweet-btn-small {
-    width: 55px;
+    width: 65px;
     height: 32px;
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 7px;
     cursor: pointer;
+    font-size: 15px;
   
     background-color: #2196F3;
     color: #ffff;

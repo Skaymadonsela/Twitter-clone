@@ -13,6 +13,7 @@
     grid-template-rows: 53px auto;
     background-color: #ffff;
     padding: 10px;
+
   }
 
   .grid-item {
@@ -21,16 +22,22 @@
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    position: sticky;
   }
 
 
   /* Begining of sidebar section */
 
   .sidebar-container {
-    width: auto;
+    width: 250px;
     position: relative;
-    top: -25px;
+    top: 45px;
+    position: fixed;
     /*border: 1px solid #2196F3; */
+  }
+
+  .logo {
+    position: fixed;
   }
   .twitter-logo {
     width: 40px;
@@ -47,6 +54,7 @@
     margin-top: 20px;
     margin-bottom: 2px;
     padding-left: 10px;
+    
   }
 
   .home-container:hover {
@@ -265,17 +273,18 @@
 
   /* Begining od main secxtion*/
 
-  .home-navbar{
+  .home-title-box {
     width: 510px;
     height: 53px;
     margin-bottom: 10px;
+    position: fixed;
     /*background-color: #2196F3; */
   }  
 
   .home-title {
     font-size: 20px;
     position: relative;
-    left: -250px;
+    left: -235px;
     top: -5px;
   }
 
@@ -285,6 +294,7 @@
     grid-template-rows: 116px auto;
     width: 598px;
     align-items: center;
+    
 
     /*border: 1px solid red; */
   }
@@ -298,9 +308,9 @@
   }
 
   .tweet-profile {
-    width: 30px;
+    width: 35px;
     position: relative;
-    top: 10px;
+    top: 20px;
     right: 20px;
     border-radius: 50px;
   }
@@ -318,7 +328,9 @@
     border: none;
     font-size: 20px;
     position: relative;
-    top: 5px
+    right: 12px;
+    top: 20px
+    
     
 
   }
@@ -326,13 +338,13 @@
   .evryone-reply {
     width: 125px;
     position: relative;
-    top: 10px;
+    top: 12px;
     left: 22px;
   }
 
   .tweet-group-icons {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns:  auto auto auto;
     margin-bottom: 30px;
     /*background-color: aqua; */
   }
@@ -352,6 +364,8 @@
     margin-bottom: 7px;
     cursor: pointer;
     font-size: 15px;
+    position: relative;
+    right: 80px;
   
     background-color: #2196F3;
     color: #ffff;
@@ -369,6 +383,13 @@
 
   .tweeter-feed {
     width: 500px;
+    position: relative;
+    right: 50px;
+  }
+
+  .tweeter-feed-HS {
+    position: relative;
+    right: 50px;
   }
 
   /* End of tweeter-feed */
@@ -381,9 +402,12 @@
     width: 304px;
     height: 42px;
     position: relative;
-    top: -18px;
+    top: 20px;
+   
     border-radius: 30px;
     font-size: 15px;
+    position: fixed;
+
 
     background-color:  rgb(239, 235, 235);
     
@@ -392,7 +416,7 @@
   .serch-icon {
     width: 20px;
     position: relative;
-    top: -60px;
+    top: -10px;
     right: 130px;
   }
 
@@ -405,6 +429,8 @@
     width: auto;
     height: 2150px;
     margin-right: 5px;
+    position: relative;
+    top: 15px;
     /*border: 1px solid mediumseagreen;*/
   }
 
@@ -457,22 +483,27 @@
   .trends-tittle {
     text-align: left;
     font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    
   }
 
   .trend-heading {
     text-align: left;
     font-size: 15px;
+    font-weight: bold;
     
   }
 
   .trending-subtitle {
     text-align: left;
     font-size: 13px;
-    
+    color: rgb(128, 126, 126);
   } 
   .trend-stats {
     text-align: left;
     font-size: 13px;
+    rgb(128, 126, 126)
    
   }
 
@@ -492,29 +523,29 @@
 
 
   .terms-service {
-    width: 250px;
+    width: 280px;
     position: relative;
-    left: 12px;
+    left: 0px;
     font-size: 13px;
-    margin-bottom: 10px;
-    /*background-color: red;*/
+    margin-bottom: 2px;
+    /*background-color: red; */
   }
 
   .accessibily-ads {
-    width: 150px;
+    width: 175px;
     position: relative;
-    left: 12px;
+    left: 4px;
     font-size: 13px;
-    /*background-color: darkorange;*/
+    /*background-color: darkorange; */
   }
 
   .at-copyright {
-    width: 155px;
+    width: 180px;
     position: relative;
-    top: 15px;
-    right: -10px;
+    top: 2px;
+    right: 3px;
     font-size: 13px;
-    /*background-color: blue;*/
+    /*background-color: blue; */
   }
 
 

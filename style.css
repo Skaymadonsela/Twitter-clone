@@ -365,7 +365,7 @@
     cursor: pointer;
     font-size: 15px;
     position: relative;
-    right: 80px;
+    right: -40px;
   
     background-color: #2196F3;
     color: #ffff;
@@ -385,6 +385,7 @@
     width: 500px;
     position: relative;
     right: 50px;
+    background-color: lightgrey;
   }
 
   .tweeter-feed-HS {

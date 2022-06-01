@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
  
 
 
@@ -169,7 +171,9 @@
     background-color: lightgray;
   }
 
-
+  .top-tweet-icon {
+    width: 20px;
+  }
   .side-icon {
     width: 35px;
     padding-left: 10px;
@@ -180,6 +184,7 @@
     font-size: 20px;
     padding-top: 15px;
     margin-left: 10px;
+    margin-bottom: -20px;
     
   }
 
@@ -442,6 +447,7 @@
     margin-right: 5px;
     position: relative;
     top: 60px;
+   
     /*border: 1px solid mediumseagreen;*/
   }
 
@@ -514,7 +520,7 @@
   .trend-stats {
     text-align: left;
     font-size: 13px;
-    rgb(128, 126, 126)
+    color: rgb(128, 126, 126);
    
   }
 

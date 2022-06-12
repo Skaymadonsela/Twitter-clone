@@ -301,6 +301,13 @@
 
   /* Begining of tweet-section */
 
+  .tweeter-feed-section {
+    width: auto;
+    height: 2300px;
+    margin-top: 100px;
+    border: none;
+  }
+
   .tweets-section {
     width: auto;
     height: 153px;
@@ -313,6 +320,7 @@
     top: 20px;
     right: 20px;
     border-radius: 50px;
+
   }
 
   .whats-happening-section {
@@ -328,11 +336,9 @@
     border: none;
     font-size: 20px;
     position: relative;
-    right: 12px;
-    top: 20px
-    
-    
-
+    left: -30px;
+    top: 30px
+       
   }
 
   .evryone-reply {
@@ -350,8 +356,40 @@
   }
 
   .icons-group {
-    margin-top: 10px;
-    margin-right: 95px;
+    display: flex;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 60px;
+    left: 35px;
+    padding-top: 10px;
+    /*background-color: red; */
+  
+  }
+
+  .blue-icons {
+    width: 20px;
+    height: 20px;
+    fill: #2196F3;
+    margin-left: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  .blue-icons:hover {
+    background-color: #c2e1ec
+  }
+
+  .tweet-btn-col {
+    width: 80px;
+    height: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    position: relative;
+    top: 50px;
+    left: 65px;
+    /*background-color: yellowgreen; */
   }
 
   .tweet-btn-small {
@@ -523,6 +561,10 @@
     position: relative;
     top: 25px;
     right: 20px;
+  }
+
+  .wtf-title {
+    font-size: 25px;
   }
 
   .copy-right-box {

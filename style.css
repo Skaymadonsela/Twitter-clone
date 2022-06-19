@@ -173,6 +173,7 @@
   .side-icon {
     width: 35px;
     padding-left: 10px;
+    margin-top: 10px;
   
   }
 
@@ -272,6 +273,7 @@
   /* End of sidebar secxtion*/
 
   /* Begining od main secxtion*/
+ 
 
   .home-title-box {
     width: 510px;
@@ -287,6 +289,31 @@
     left: -235px;
     top: -5px;
   }
+
+
+  .toptweet-box {
+    width: 40px;
+    height: 45px;
+    position: relative;
+    top: -50px;
+    right: -530px;
+    /*background-color: red; */
+  }
+
+
+  .toptweet-icon {
+    width: 34px;
+    height: 34px;
+    border: 1px solid rgb(247, 243, 243);
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  .toptweet-icon:hover {
+    background-color: lightgrey;
+  }
+
+
 
   .main-section {
     display: grid;
@@ -426,10 +453,303 @@
     background-color: lightgrey;
   }
 
-  .tweeter-feed-HS {
+
+  .tweet-profile {
+    width: 30px;
     position: relative;
-    right: 50px;
+    top: 30px;
+    right: 45px;
+    border-radius: 50px;
   }
+
+
+  .tweet {
+    width: 556px;
+    height: 2300px;
+    /*background-color: rgb(227, 225, 225); */
+  }
+
+  .retweet-box {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -25px;
+    /*background-color: magenta; */
+  }
+
+  .tweet-image-section {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    margin-left: 56px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    background-color: coral; */
+  }
+
+  .tweet-image-mrd {
+    width: 490px;
+    border-radius: 15px;
+  }
+
+  .tweet-image {
+    width: 250px;
+    height: 300px;
+    padding-right: 4px;
+    border-radius: 15px;
+  }
+
+  .retweet-icon {
+    width: 16px;
+    height: 12px;
+    position: relative;
+    top: -15px;
+  }
+
+  .retweet-text {
+    font-size: 14px;
+    text-align: start;
+    margin-left: 20px;
+  }
+
+  .user-profile-box {
+    width: 50px;
+    height: 50px;
+    /*background-color: #2196F3;*/
+  }
+
+  .styled-tweet {
+    width: 556px;
+    height: 150px;
+    position: relative;
+    top: -20px;  
+    background-color: rgb(209, 22, 22);*/
+  }
+
+  .styled-tweet2 {
+    width: 556px;
+    height: 465px;
+    position: relative;
+    top: 0px; 
+    margin-bottom: 10px;
+    /*background-color: greenyellow; */
+  }
+
+  .styled-tweet-aka {
+    width: 556px;
+    height: 180px;
+    position: relative;
+    top: 0px; 
+    margin-bottom: 10px;
+    border: 1px solid black;
+  }
+
+  .styled-tweetmrd {
+    width: 556px;
+    height: 440px;
+    position: relative;
+    top: -20px; 
+    margin-bottom: 10px;
+    /*background-color: rgb(47, 193, 255); */
+  }
+
+  .styled-tweet-sniper {
+    width: 556px;
+    height: 160px;
+    position: relative;
+    top: -30px; 
+    margin-bottom: 10px;
+    border: 1px solid black;
+  }
+
+  .styled-tweet-ran {
+    width: 556px;
+    height: 740px;
+    position: relative;
+    top: -20px; 
+    margin-bottom: 10px;
+    /*background-color: pink */
+  }
+
+  .tweet-text-box {
+    width: 480px;
+    height: 80px;
+    position: relative;
+    top: -45px;
+    left: 65px;
+    /*background-color: red; */
+  }
+
+
+  .tweet-text {
+    font-size: 16px; 
+    text-align: start;
+  }
+
+  .twitter-user-profile {
+    width: 40px;
+    border-radius: 50px;
+  }
+
+  
+
+  .reaction-icons-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 480px;
+    height: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    top: -20px;
+    left: 65px;
+    /*background-color: gold;*/
+  }
+
+  .reaction-icons-box-mrd {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 480px;
+    height: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 250px;
+    left: 65px;
+    /*background-color: crimson; */
+  }
+
+  .reaction-icons-box-ran {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 480px;
+    height: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 480px;
+    left: 65px;
+    /*background-color: yellow; */
+  }
+
+  .reply-icon-mrd {
+    width: 16px;
+    height: 12px;
+    position: relative;
+    left: -39px;
+  }
+
+  .retweet1-icon-mrd {
+    width: 16px;
+    height: 12px;
+    position: relative;
+    left: -39px;
+  }  
+
+  .like-icon-mrd {
+    width: 16px;
+    height: 12px;
+    position: relative;
+    left: -39px;
+  }
+  
+  .share-icon-mrd {
+    width: 16px;
+    height: 12px;
+    position: relative;
+    left: -39px;
+  }
+  
+
+  .reply-icon {
+    width: 19px;
+    height: 19px;
+    position: relative;
+    left: -39px;
+    border:  #21bbf3;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  .reply-icon:hover {
+    background-color: #21bbf3;
+  }
+
+  .retweet1-icon {
+    width: 19px;
+    height: 19px;
+    position: relative;
+    left: -39px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  .retweet1-icon:hover {
+    background-color: rgb(100, 202, 100);
+  }
+
+  .like-icon {
+    width: 19px;
+    height: 19px;
+    position: relative;
+    left: -39px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  .like-icon:hover {
+    background-color: rgb(222, 8, 126);
+  }
+
+
+
+  .share-icon {
+    width: 19px;
+    height: 19px;
+    position: relative;
+    left: -39px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  .share-icon:hover{
+    background-color: #21bbf3;
+  }
+  
+
+  .reply-stats {
+    font-size: 12px;
+    position: relative;
+    right: 70px;
+    cursor: pointer;
+  }
+
+  .reply-stats:hover {
+    background-color: #21bbf3;
+  }
+
+  .retweet-stats {
+    font-size: 12px;
+    position: relative;
+    right: 70px;
+  }
+
+  .like-stats {
+    font-size: 12px;
+    position: relative;
+    right: 70px;
+  }
+
+  .share-stats {
+    font-size: 12px;
+    position: relative;
+    right: 70px;
+  }
+
+  
 
   /* End of tweeter-feed */
 
@@ -557,9 +877,9 @@
   }
 
   .tweeter-feed-footer {
-    width: 290px;
-    position: relative;
-    top: 25px;
+    width: 290px ;
+    position relative;
+    top: 25px ;
     right: 20px;
   }
 

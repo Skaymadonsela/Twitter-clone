@@ -52,7 +52,7 @@
    /* border: 1px solid red; */
     border-radius: 30px;
     margin-top: 20px;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
     padding-left: 10px;
     
   }
@@ -67,7 +67,7 @@
     height: 50px;
     /* border: 1px solid red; */
     border-radius: 30px;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
     padding-left: 10px;
     cursor: pointer;
   }
@@ -83,7 +83,7 @@
     height: 50px;
     /* border: 1px solid red; */
     border-radius: 30px;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
     padding-left: 10px;
     cursor: pointer;
   }
@@ -98,7 +98,7 @@
     height: 50px;
     /* border: 1px solid red; */
     border-radius: 30px;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
     padding-left: 10px;
     cursor: pointer;
 }
@@ -114,7 +114,7 @@
     height: 50px;
     /* border: 1px solid red; */
     border-radius: 30px;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
     padding-left: 10px;
     cursor: pointer;
 }
@@ -129,7 +129,7 @@
     height: 50px;
     /* border: 1px solid red; */
     border-radius: 30px;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
     padding-left: 10px;
   }
 
@@ -144,7 +144,7 @@
     height: 50px;
     /* border: 1px solid red; */
     border-radius: 30px;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
     padding-left: 10px;
     cursor: pointer;
   }
@@ -160,7 +160,7 @@
     height: 50px;
     /* border: 1px solid red; */
     border-radius: 30px;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
     padding-left: 10px;
     cursor: pointer;
   }
@@ -168,7 +168,6 @@
   .more-container:hover {
     background-color: lightgray;
   }
-
 
   .side-icon {
     width: 35px;
@@ -328,16 +327,9 @@
 
   /* Begining of tweet-section */
 
-  .tweeter-feed-section {
-    width: auto;
-    height: 2300px;
-    margin-top: 100px;
-    border: none;
-  }
-
   .tweets-section {
     width: auto;
-    height: 153px;
+    height: 125px;
     /*background-color: yellow; */
   }
 
@@ -350,13 +342,6 @@
 
   }
 
-  .whats-happening-section {
-    width: 501px;
-    height: 28px;
-    margin-top: 15px;
-    /*border: 1px solid greenyellow; */
-  }
-
   .input-tweet {
     width: 80%;
     height: 50px;
@@ -364,15 +349,38 @@
     font-size: 20px;
     position: relative;
     left: -30px;
-    top: 30px
-       
+    top: 30px     
   }
 
   .evryone-reply {
-    width: 125px;
-    position: relative;
-    top: 12px;
-    left: 22px;
+    width: 165px;
+    height: 20px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 45px;
+    border-radius: 15px;
+    /*background-color: #21bbf3;*/
+  }
+
+  .evryone-reply:hover {
+    background-color: #def4fc
+  }
+
+  .universe-icon {
+    width: 20px;
+    height: 20px;
+    fill: #2196F3;
+    margin-right: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+    
+  }
+
+  .evryone-reply-text {
+    font-size: 15px;
+    color: #2196F3;
+    cursor: pointer;
+    
   }
 
   .tweet-group-icons {
@@ -387,7 +395,7 @@
     width: 200px;
     height: 40px;
     position: relative;
-    top: 60px;
+    top: 20px;
     left: 35px;
     padding-top: 10px;
     /*background-color: red; */
@@ -407,14 +415,15 @@
     background-color: #c2e1ec
   }
 
+
   .tweet-btn-col {
     width: 80px;
     height: 40px;
     padding-right: 10px;
-    padding-left: 10px;
+    padding-left: 6px;
     padding-bottom: 50px;
     position: relative;
-    top: 50px;
+    top: 15px;
     left: 65px;
     /*background-color: yellowgreen; */
   }
@@ -431,7 +440,6 @@
     font-size: 15px;
     position: relative;
     right: -40px;
-  
     background-color: #2196F3;
     color: #ffff;
   }
@@ -442,17 +450,16 @@
 
   .tweeter-feed-section {
     width: auto;
-    height: 2000px;
-    /*background-color: #2196F3; */
+    height: 2300px;
+    margin-top: 70px;
+    border: 1px solid red;
   }
 
   .tweeter-feed {
-    
     position: relative;
     right: 12px;
     background-color: lightgrey;
   }
-
 
   .tweet-profile {
     width: 30px;

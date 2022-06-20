@@ -435,7 +435,7 @@
 
   .tweeter-feed-section {
     width: auto;
-    height: 2300px;
+    height: 1750px;
     margin-top: 70px;
     border: 1px solid red;
   }
@@ -523,7 +523,6 @@
     background-color: gold;*/
   }
 
-
   .styled-tweet-mrd {
     width: 556px;
     height: 420px;
@@ -587,9 +586,82 @@
     background-color: yellow; */
   }
 
-  
+  .wtf-title {
+    font-size: 132px;
+    font-weight: bold;
+  }
 
+  .wtf-title-box {
+    width: 180px;
+    height: 30px;
+    margin-top: 10px;
+    padding-right: 12px;
+    margin-top: 20px;
+    position: relative;
+    top: 210px;
+    border: 1px solid black;
+    background-color: pink;
+  }
 
+  .wtf-container {
+    width: 556px;
+    height: 110px;
+    margin-top: 10px;
+    position: relative;
+    top: 210px;
+    border: 1px solid black;
+  }
+
+  .handles-box {
+    width: 95px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    background-color: purple;
+  }
+
+  .handles {
+    font-size: 16px;
+    text-align: start;
+  }
+
+  .tweet-text-wtf {
+    font-size: 16px;
+    text-align: start;
+    padding-bottom: 30px;
+
+  }
+
+  .tweet-btn-wtf-container {
+    width: 70px;
+    height: 50px;
+    position: relative;
+    top: -50px;
+    left: 470px;
+    background-color: green;
+  }
+
+  .tweet-btn-wtf {
+    width: 65px;
+    height: 32px;
+    border: none;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 7px;
+    cursor: pointer;
+    font-size: 15px; 
+    background-color: black;
+    color: #ffff;
+  }
+
+  .tweet-text-wtf-box {
+    width: 556px;
+    height: 40px;
+    position: relative;
+    top: -40px;
+    background-color: orange;
+  }
 
   .tweet-image {
     width: 500px;
@@ -600,10 +672,6 @@
     margin-left: 60px;
 
   }
-
-  
-
-  
 
   .tweeter-feed {
     position: relative;

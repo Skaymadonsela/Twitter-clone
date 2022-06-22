@@ -992,7 +992,7 @@
     right: 20px;
   }
 
-  .wtf-container-side {
+  .wtf-container-doowap {
     width: auto;
     height: 80px;
     background-color: mediumaquamarine;
@@ -1037,6 +1037,60 @@
     background-color: black;
     color: #ffff;
   }
+
+  .wtf-container-nodejs {
+    width: auto;
+    height: 80px;
+    position: relative;
+    top: -35px;
+    background-color: rgb(187, 200, 42);
+  }
+
+  .wtf-title-side {
+    text-align: start;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .wtf-title-box-side {
+    width: auto;
+    height: 30px;
+    margin-top: 10px;
+    padding-right: 12px;
+    margin-top: 20px;
+    
+    border: 1px solid black;
+    background-color: rgb(192, 255, 200);
+  }
+
+  .wtf-container-zkhiphani {
+    width: auto;
+    height: 80px;
+    position: relative;
+    top: -35px;
+    background-color: rgb(42, 79, 200);
+  }
+
+  .show-more-container {
+    width: auto;
+    height: 50px;
+    position: relative;
+    top: -35px;
+    background-color: darksalmon;
+  }
+
+  .show-more-title {
+    text-align: start;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 15px;
+    color: rgb(37, 142, 216)
+  }
+    
+  
+
+  
+
 
   .copy-right-box {
     width: 290px;

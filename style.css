@@ -623,6 +623,15 @@
     background-color: purple;
   }
 
+  .handles-box-chickenicken {
+    width: 150px;
+    height: 40px;
+    margin-top: -40px;
+    margin-bottom: 8px;
+    margin-left: 50px;
+    background-color: purple;
+  }
+
   .handles {
     font-size: 16px;
     text-align: start;
@@ -698,10 +707,6 @@
     /*background-color: rgb(227, 225, 225); */
   }
 
-  
-
-  
-
   .tweet-image-mrd {
     width: 490px;
     border-radius: 15px;
@@ -738,7 +743,6 @@
     left: 65px;
     /*background-color: red; */
   }
-
 
   .tweet-text {
     font-size: 16px; 
@@ -790,7 +794,8 @@
   }
 
   .reply-icon:hover {
-    background-color: #21bbf3;
+    fill:#21bbf3;;
+    background-color: #9ed5e9;
   }
 
   .retweet1-icon {
@@ -803,7 +808,8 @@
   }
 
   .retweet1-icon:hover {
-    background-color: rgb(100, 202, 100);
+    fill:rgb(100, 202, 100); ;
+    background-color: rgb(197, 239, 197);
   }
 
   .like-icon {
@@ -812,11 +818,13 @@
     position: relative;
     left: -39px;
     border-radius: 30px;
+    
     cursor: pointer;
   }
 
   .like-icon:hover {
-    background-color: rgb(222, 8, 126);
+    fill: rgb(222, 8, 126);;
+    background-color: rgb(234, 181, 210);
   }
 
   .share-icon {
@@ -829,7 +837,8 @@
   }
 
   .share-icon:hover{
-    background-color: #21bbf3;
+    fill: #2196F3;
+    background-color: #8bd3ec;
   }
   
 
@@ -841,7 +850,8 @@
   }
 
   .reply-stats:hover {
-    background-color: #21bbf3;
+    fill: #0b7fde;
+    background-color: #8bd3ec;
   }
 
   .retweet-stats {
@@ -1086,16 +1096,11 @@
     padding-top: 15px;
     color: rgb(37, 142, 216)
   }
-    
-  
-
-  
-
 
   .copy-right-box {
     width: 290px;
     height: 100px;
-    margin-top: 30px;
+    margin-top: -20px;
     /*background-color: chocolate;*/
   }
 

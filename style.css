@@ -438,7 +438,7 @@
     width: auto;
     height: 1750px;
     margin-top: 70px;
-    border: 1px solid red;
+    /*border: 1px solid red; */
   }
 
   .retweet-box {
@@ -446,7 +446,7 @@
     width: 210px;
     height: 20px;
     margin-left: 65px;
-    background-color: magenta; */
+    /*background-color: magenta; */
   }
 
   .retweet-icon {
@@ -464,7 +464,7 @@
   .styled-tweet-spotify {
     width: 556px;
     height: 130px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     cursor: pointer;
   }
 
@@ -475,7 +475,7 @@
   .styled-tweet-bape {
     width: 556px;
     height: 415px;
-    border: 1px solid rgb(39, 216, 95);
+    /*border: 1px solid rgb(39, 216, 95);*/
     cursor: pointer;
     margin-bottom: 10px;
   }
@@ -494,14 +494,14 @@
     padding-bottom: 20px;
     padding-left: 10px;
     margin-left: 60px;
-    background-color: aqua;
+    /*background-color: aqua;*/
   }
 
   .styled-tweet-aka {
     width: 556px;
     height: 130px;
     margin-top: 2px;
-    border: 1px solid black;
+    /*border: 1px solid black; */
     cursor: pointer;
   }
 
@@ -521,16 +521,20 @@
     margin-left: 60px;
     position: relative;
     top: -40px;
-    background-color: gold;*/
+    /*background-color: gold;*/
   }
 
   .styled-tweet-mrd {
     width: 556px;
     height: 420px;
-    border: 1px solid rgb(13, 14, 13);
+    /*border: 1px solid rgb(13, 14, 13);*/
     cursor: pointer;
     margin-bottom: 10px;
 
+  }
+
+  .styled-tweet-mrd:hover {
+    background-color: #f8f5f5
   }
 
   .reaction-icons-box-mrd {
@@ -545,31 +549,44 @@
     padding-top: 10px;
     padding-bottom: 20px;
     padding-left: 10px;
-    background-color: crimson; */
+    /*background-color: crimson; */
   }
 
   .styled-tweet-sniper {
     width: 556px;
     height: 130px;
     margin-top: -10px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     cursor: pointer;
   }
+
+  .styled-tweet-sniper:hover {
+    background-color: #f8f5f5
+  }
+  
 
   .styled-tweet-guru {
     width: 556px;
     height: 130px;
     margin-top: -1px;
-    border: 1px solid black;
+    /*border: 1px solid black; */
     cursor: pointer;
+  }
+
+  .styled-tweet-guru:hover {
+    background-color: #f8f5f5
   }
 
   .styled-tweet-ran {
     width: 556px;
     height: 365px;
     margin-bottom: 10px;
-    border: 1px solid black;
+    /*border: 1px solid black; */
     /*background-color: pink */
+  }
+
+  .styled-tweet-ran:hover {
+    background-color: #f8f5f5
   }
 
   .reaction-icons-box-ran {
@@ -584,7 +601,7 @@
     position: relative;
     top: 200px;
     left: 65px;
-    background-color: yellow; */
+    /*background-color: yellow; */
   }
 
   .wtf-title {
@@ -601,8 +618,8 @@
     margin-bottom: 20px;
     position: relative;
     top: 210px;
-    border: 1px solid black;
-    background-color: pink;
+    /*border: 1px solid black; */
+    background-color: #f3f3f3;
   }
 
   .wtf-container {
@@ -611,7 +628,11 @@
     margin-top: 0px;
     position: relative;
     top: 210px;
-    border: 1px solid black;
+    /*border: 1px solid black; */
+  }
+
+  .wtf-container:hover {
+    background-color: #f8f5f5
   }
 
   .handles-box {
@@ -620,7 +641,7 @@
     margin-top: -40px;
     margin-bottom: 8px;
     margin-left: 50px;
-    background-color: purple;
+    /*background-color: purple; */
   }
 
   .handles-box-chickenicken {
@@ -629,8 +650,8 @@
     margin-top: -40px;
     margin-bottom: 8px;
     margin-left: 50px;
-    background-color: purple;
-  }
+    /*background-color: purple; */
+  } 
 
   .handles {
     font-size: 16px;
@@ -651,7 +672,7 @@
     position: relative;
     top: -50px;
     left: 470px;
-    background-color: green;
+    /*background-color: green; */
   }
 
   .tweet-btn-wtf {
@@ -673,7 +694,7 @@
     height: 60px;
     position: relative;
     top: -40px;
-    background-color: orange;
+    /*background-color: orange; */
   }
 
   .tweet-image {
@@ -723,7 +744,7 @@
     height: 150px;
     position: relative;
     top: -20px;  
-    background-color: rgb(209, 22, 22);*/
+    /*background-color: rgb(209, 22, 22);*/
   }
 
   .styled-tweet2 {
@@ -849,10 +870,6 @@
     cursor: pointer;
   }
 
-  .reply-stats:hover {
-    fill: #0b7fde;
-    background-color: #8bd3ec;
-  }
 
   .retweet-stats {
     font-size: 12px;
@@ -1005,25 +1022,22 @@
   .wtf-container-doowap {
     width: auto;
     height: 80px;
-    background-color: mediumaquamarine;
+    cursor: pointer;
+    background-color: #f3f3f3; 
   }
 
+  .wtf-container-doowap:hover {
+    background-color: #f8f5f5
+  }
+
+  
   .wtf-title-side {
     text-align: start;
     font-size: 25px;
     font-weight: bold;
   }
 
-  .wtf-title-box-side {
-    width: auto;
-    height: 30px;
-    margin-top: 10px;
-    padding-right: 12px;
-    margin-top: 20px;
-    
-    border: 1px solid black;
-    background-color: rgb(192, 255, 200);
-  }
+ 
 
   .tweet-btn-wtf-container-side {
     width: 70px;
@@ -1031,7 +1045,7 @@
     position: relative;
     top: -55px;
     left: 210px;
-    background-color: rgb(7, 123, 231);
+    /*background-color: rgb(7, 123, 231); */
   }
 
   .tweet-btn-wtf-side {
@@ -1053,7 +1067,11 @@
     height: 80px;
     position: relative;
     top: -35px;
-    background-color: rgb(187, 200, 42);
+    background-color: #f3f3f3; 
+  }
+
+  .wtf-container-nodejs:hover {
+    background-color: #f8f5f5
   }
 
   .wtf-title-side {
@@ -1068,17 +1086,21 @@
     margin-top: 10px;
     padding-right: 12px;
     margin-top: 20px;
-    
-    border: 1px solid black;
-    background-color: rgb(192, 255, 200);
+    /*border: 1px solid black; */
+    background-color: #f3f3f3;
   }
+
 
   .wtf-container-zkhiphani {
     width: auto;
     height: 80px;
     position: relative;
     top: -35px;
-    background-color: rgb(42, 79, 200);
+    background-color: #f3f3f3; 
+  }
+
+  .wtf-container-zkhiphani:hover {
+    background-color: #f8f5f5
   }
 
   .show-more-container {
@@ -1086,7 +1108,11 @@
     height: 50px;
     position: relative;
     top: -35px;
-    background-color: darksalmon;
+    background-color: #f5f5f5; 
+  }
+
+  .show-more-container:hover {
+    background-color: #dddddd
   }
 
   .show-more-title {

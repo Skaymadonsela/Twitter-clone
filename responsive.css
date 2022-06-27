@@ -1,0 +1,31 @@
+@media (max-width: 600px) and (min-width: 320px) {
+
+    .mobile-twitter {
+        width: 100%;
+        height: 50px;
+        display: block;
+        background-color: yellow;
+      }
+
+      .sidebar-container {
+          display: none;
+      }
+
+      .twitter-logo {
+          display: none;
+      }
+
+      .home-title-box {
+          position: relative;
+          right: 20px;
+      }
+
+      .home-title {
+        font-size: 20px;
+        position: relative;
+        left: -25px;
+        top: -5px;
+      }
+
+}
+    

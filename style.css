@@ -6,8 +6,8 @@
  
 .grid-container {
     display: grid;
-    grid-template-columns: 160px 380px 598px 350px 200px;
-    grid-template-rows: 2200px auto;
+    grid-template-columns: 160px 380px 598px 400px 200px;
+    grid-template-rows: 2580px auto;
     background-color: rgb(6, 145, 237);
     /* padding: 0px; */
   }
@@ -304,10 +304,13 @@
 
   .grid-item-main {
     background-color: rgba(68, 219, 139, 0.8);
+    height: 2580px;
     padding: 20px;
     font-size: 30px;
     text-align: center;
-    position: sticky;
+    /* position: sticky; */
+    margin-right: 25px;
+
   }
 
   /* whats-happening-section */
@@ -317,6 +320,12 @@
   }
 
 
+  .tweet-image-section{
+    width: auto;
+    height: 300px;
+    margin-bottom: 30px;
+    background-color: orangered;
+  }
   
 
   
@@ -687,7 +696,7 @@
   }
 
   .styled-tweet-bape {
-    width: 556px;
+    width: 550px;
     height: 415px;
     /*border: 1px solid rgb(39, 216, 95);*/
     cursor: pointer;
@@ -1018,9 +1027,9 @@
   }
 
   .tweet-image {
-    width: 500px;
+    width: 480px;
     height: 300px;
-    padding-right: 4px;
+    /* padding-right: 2px; */
     border-radius: 15px;
     margin-top: -50px;
     margin-left: 60px;
@@ -1227,6 +1236,13 @@
 
 
   /* Begining of tweeter search */
+
+  .grid-item-trends{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(162, 238, 104);
+  }
 
   .serach-bar {
     display: flex;

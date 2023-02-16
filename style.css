@@ -320,12 +320,12 @@
   }
 
 
-  .tweet-image-section{
+  /* .tweet-image-section{
     width: auto;
     height: 300px;
     margin-bottom: 30px;
     background-color: orangered;
-  }
+  } */
   
 
   
@@ -426,7 +426,9 @@
   }
 
   .trends-container{
-
+    width: 300px;
+    height: 700px;
+    /* background-color: #d20d63; */
   }
 
   @media (max-width: 768px) {
@@ -675,7 +677,7 @@
   }
 
   .styled-tweet-spotify {
-    width: 556px;
+    width: 550px;
     height: 130px;
     /*border: 1px solid black;*/
     cursor: pointer;
@@ -700,6 +702,7 @@
     height: 415px;
     /*border: 1px solid rgb(39, 216, 95);*/
     cursor: pointer;
+    padding-right: 30px;
     margin-bottom: 10px;
   }
 
@@ -721,9 +724,9 @@
   }
 
   .styled-tweet-aka {
-    width: 556px;
+    width: 550px;
     height: 130px;
-    margin-top: 2px;
+    margin-top: 10px;
     /*border: 1px solid black; */
     cursor: pointer;
   }
@@ -766,8 +769,8 @@
   }
 
   .styled-tweet-mrd {
-    width: 556px;
-    height: 420px;
+    width: 550px;
+    height: 415px;
     /*border: 1px solid rgb(13, 14, 13);*/
     cursor: pointer;
     margin-bottom: 10px;
@@ -813,7 +816,7 @@
 
 
   .styled-tweet-sniper {
-    width: 556px;
+    width: 550px;
     height: 130px;
     margin-top: -10px;
     /*border: 1px solid black;*/
@@ -826,7 +829,7 @@
   
 
   .styled-tweet-guru {
-    width: 556px;
+    width: 550px;
     height: 130px;
     margin-top: -1px;
     /*border: 1px solid black; */
@@ -838,7 +841,7 @@
   }
 
   .styled-tweet-ran {
-    width: 556px;
+    width: 550px;
     height: 365px;
     margin-bottom: 10px;
     /*border: 1px solid black; */
@@ -914,7 +917,7 @@
   }
 
   .wtf-container {
-    width: 556px;
+    width: 550px;
     height: 140px;
     margin-top: 0px;
     position: relative;
@@ -956,6 +959,7 @@
   } 
 
   .handles {
+    margin-top: 10px;
     font-size: 16px;
     text-align: start;
   }
@@ -1027,7 +1031,7 @@
   }
 
   .tweet-image {
-    width: 480px;
+    width: 450px;
     height: 300px;
     /* padding-right: 2px; */
     border-radius: 15px;
@@ -1061,7 +1065,8 @@
   }
 
   .tweet-image-mrd {
-    width: 490px;
+    width: 450px;
+    margin-right: 30px;
     border-radius: 15px;
   } 
 
@@ -1240,7 +1245,8 @@
   .grid-item-trends{
     display: flex;
     width: 400px;
-    height: 400px;
+    height: 2580px;
+    padding-left: 10px;
     background-color: rgb(162, 238, 104);
   }
 
@@ -1364,6 +1370,7 @@
   .trending-subtitle {
     text-align: left;
     font-size: 13px;
+    /* margin-left: 10px; */
     color: rgb(128, 126, 126);
   } 
   .trend-stats {
@@ -1373,22 +1380,23 @@
    
   }
 
-  .tweeter-feed-footer {
-    width: 290px ;
-    position relative;
-    top: 25px ;
-    right: 20px;
-  }
 
-  .wtf-container-doowap {
-    width: auto;
+  /* .wtf-container-doowap {
+   
+    width: 350px;
     height: 80px;
     cursor: pointer;
     background-color: #f3f3f3; 
-  }
+  } */
 
-  .wtf-container-doowap:hover {
+  /* .wtf-container-doowap:hover {
     background-color: #f8f5f5
+  } */
+
+  .user-profile-box-side{
+    width: 40px;
+    margin-top: 20px;
+    background-color: #21bbf3;
   }
 
   
@@ -1400,11 +1408,11 @@
 
   .tweet-btn-wtf-container-side {
     width: 70px;
-    height: 55px;
+    height: 35px;
     position: relative;
-    top: -55px;
-    left: 210px;
-    /*background-color: rgb(7, 123, 231); */
+    top: -40px;
+    left: 80px;
+    background-color: rgb(123, 7, 231);
   }
 
   .tweet-btn-wtf-side {
@@ -1414,7 +1422,8 @@
     border-radius: 30px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-bottom: 7px;
+    margin-top: 15px;
+    margin-left: 5px;
     cursor: pointer;
     font-size: 15px; 
     background-color: black;
@@ -1422,10 +1431,10 @@
   }
 
   .wtf-container-nodejs {
-    width: auto;
+    width: 348px;
     height: 80px;
-    position: relative;
-    top: -35px;
+    /* position: relative;
+    top: -35px; */
     background-color: #f3f3f3; 
   }
 
@@ -1436,38 +1445,69 @@
   .wtf-title-side {
     text-align: start;
     font-size: 25px;
+    padding-left: 20px;
     font-weight: bold;
   }
 
   .wtf-title-box-side {
-    width: auto;
+    width: 348px;
     height: 30px;
     margin-top: 10px;
     padding-right: 12px;
-    margin-top: 20px;
+    margin-bottom: 50px;
     /*border: 1px solid black; */
-    background-color: #f3f3f3;
+    /* background-color: #963b3b; */
   }
 
 
-  .wtf-container-zkhiphani {
-    width: auto;
-    height: 80px;
-    position: relative;
-    top: -35px;
-    background-color: #f3f3f3; 
+  .handles-container-side {
+    width: 350px;
+    height: 200px;
+    background-color: #b1a1a1; 
   }
 
   .wtf-container-zkhiphani:hover {
     background-color: #f8f5f5
   }
 
-  .show-more-container {
-    width: auto;
-    height: 50px;
+  .side-handles-box{
+    display: grid;
+    grid-template-columns: 50px 200px 80px;
+    padding-left: 20px;
+    background-color: #2196F3;
+  }
+
+  .side-handles{
+    margin-top: 10px;
+    font-size: medium;
+  }
+
+   .side-handles-box1{
+    display: grid;
+    grid-template-columns: 50px 200px 80px;
+    background-color: #2196F3;
     position: relative;
-    top: -35px;
-    background-color: #f5f5f5; 
+    top: -160px;
+    padding-left: 20px;
+  }
+
+  .side-handles-box2{
+    display: grid;
+    grid-template-columns: 50px 200px 80px;
+    background-color: #2196F3;
+    position: relative;
+    top: 250px;
+    padding-left: 20px;
+  }
+
+  .show-more-container {
+    width: 350px;
+    height: 41px;
+    border-radius: 0 0 15px 15px;
+    position: relative;
+    top: 416px;
+    padding-left: 20px;
+    /* background-color: #0dd64a;  */
   }
 
   .show-more-container:hover {
@@ -1478,14 +1518,15 @@
     text-align: start;
     font-size: 15px;
     font-weight: bold;
-    padding-top: 15px;
+    padding-top: 10px;
     color: rgb(37, 142, 216)
   }
 
   .copy-right-box {
-    width: 290px;
-    height: 100px;
-    margin-top: -20px;
+    width: 350px;
+    height: 80px;
+    background-color: #dddddd;
+    margin-top: 300px;
     /*background-color: chocolate;*/
   }
 
@@ -1514,6 +1555,31 @@
     font-size: 13px;
     /*background-color: blue; */
   }
+
+  .side-follow-container{
+    margin-top: 80px;
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: #bd0b0b;
+  }
+
+  .side-twitter-user-profile {
+    width: 40px;
+    /* margin-bottom: 10px; */
+    margin-top: 10px;
+    border-radius: 50px;
+  }
+
+  .copyrite-container{
+    width: 350px;
+    height: 70px;
+    padding-left: 20px;
+    position: relative;
+    top: 430px;
+    background-color: #e4a0c0;
+  }
+  
 
 
 

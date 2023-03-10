@@ -1,4 +1,4 @@
-@media (max-width: 396px) {
+@media (max-width: 600px) and (min-width: 320px) {
 
     .mobile-twitter {
         width: 100%;
@@ -28,29 +28,4 @@
       }
 
 }
-
-/* Tablet */
-
-@media (max-width: 768px)  {
-
-    .sidebar-container {
-      width: 64px;
-      margin-left: -20px;
-    }
-
-    .logo{
-        background-color: yellow;
-    }
-
-
-    .home-title-box {
-        position: relative;
-        left: 100px;
-    }
-
-    
-
-
-    }
-
     
